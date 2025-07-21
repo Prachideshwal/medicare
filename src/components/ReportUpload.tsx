@@ -9,7 +9,7 @@ import { useToast } from '@/hooks/use-toast';
 import axios from 'axios';
 
 // LangSmith API Configuration
-const LANGSMITH_API_KEY = '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';
+const LANGSMITH_API_KEY = import.meta.env.VITE_LANGSMITH_API_KEY;
 const LANGSMITH_ENDPOINT = 'https://api.smith.langchain.com';
 const LANGSMITH_PROJECT = 'pr-uncommon-rush-96';
 
